@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myMod">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="Js Files/angularJs.js"></script>
+    <script src="Js Files/angularRoute.js"></script>
+    <script src="Js Files/angularModule.js"></script>
+
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+
+    <title>First Application</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="jumbotron bg-dark text-white text-center">My First Single Application</h1>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: -8px">
+            <div class="col-sm-3">
+                <div class="bg-dark" style="height: 500px;">
+                    <ul style="list-style: none; font-size: 20px;">
+                        <li><a href="#!teacher">Teachers</a></li>
+                        <li><a href="#!student">Students</a></li>
+                        <li><a href="#!course">Courses</a></li>
+                        <li><a href="#!gallery">Gallery</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-sm-9">
+                <div class="ng-view">
+                
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card card-body bg-dark text-white text-center">
+                    <h5>All right reserved to XYZ company &copy; 2024</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
